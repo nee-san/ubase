@@ -2,11 +2,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#if MAJOR_IN_MKDEV
-#include <sys/mkdev.h>
-#elif MAJOR_IN_SYSMACROS
 #include <sys/sysmacros.h>
-#endif
 
 #include <fcntl.h>
 #include <stdio.h>
