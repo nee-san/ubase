@@ -1,5 +1,6 @@
 /* See LICENSE file for copyright and license details. */
 #include "arg.h"
+#include <sys/sysmacros.h>
 
 #define UTF8_POINT(c) (((c) & 0xc0) != 0x80)
 
