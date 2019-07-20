@@ -1,6 +1,5 @@
 /* See LICENSE file for copyright and license details. */
 #include <sys/mount.h>
-#include <sys/sysmacros.h>
 
 #include <mntent.h>
 #include <stdio.h>
